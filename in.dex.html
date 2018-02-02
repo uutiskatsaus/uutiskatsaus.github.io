@@ -1,0 +1,49 @@
+<style>
+body {
+	background-image: url("wat.jpg");
+}
+div:hover {
+	background: DeepSkyBlue;
+}
+div {
+	background: white;
+}
+.divTable{
+	display: table;
+	width: 20%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+</style>
+<div class="divTable" style="border: 3px solid #000;" >
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell" OnClick="window.open('one.html');">&nbsp;Suomi</div>
+<div class="divTableCell" OnClick="window.open('two.html');">&nbsp;Pohjoismaat</div>
+<div class="divTableCell" OnClick="window.open('three.html')">&nbsp;Eurooppa</div>
+<div class="divTableCell" OnClick="window.open('four.html')">&nbsp;Kenia</div>
+<div class="divTableCell" OnClick="window.open('five.html');">Etelä-Afrikka</div>
+</div>
+</div>
+</div>
